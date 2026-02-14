@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dictionary <i class="fas fa-book-open"></i></h1>
+        
+        <div class="search-box">
+            <input type="text" id="wordInput" placeholder="Enter a word...">
+            <button id="searchBtn"><i class="fas fa-search"></i> Search</button>
+        </div>
+
+        <div id="result" class="result-container">
+            <!-- Results will be displayed here -->
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <i class="fas fa-spinner fa-spin"></i> Searching...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
